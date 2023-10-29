@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to right, #FFA500, #FF8C00); /* Use orange shades */
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+/* ... (rest of the code remains the same) */
+
+#savebtn {
+    font-size: 1.5rem;
+    background: #FF4500; /* Use orange shade */
+    outline: none;
+    border: none;
+}
+
+#savebtn:hover {
+    background: #FF8C00; /* Use a darker orange shade on hover */
+}
+
+#clrbtn {
+    font-size: 1.5rem;
+    background: #FF6347; /* Use a different orange shade */
+    outline: none;
+    float: right;
+    border: none;
+}
+
+#clrbtn:hover {
+    background: #FF4500; /* Use a darker orange shade on hover */
+}
+
+/* ... (rest of the code remains the same) */
+
+.labid span {
+    background: #FF8C00; /* Use orange shade */
+    color: rgb(255, 255, 255);
+}
+
+/* ... (rest of the code remains the same) */
+
+.well #closebtn {
+    background: #FF4500; /* Use orange shade */
+    outline: none;
+    border: none;
+}
+
+.well #closebtn:hover {
+    background: #FF8C00; /* Use a darker orange shade on hover */
+}
+
+.well #delbtn {
+    background: #FF6347; /* Use a different orange shade */
+    outline: none;
+    border: none;
+}
+
+.well #delbtn:hover {
+    background: #FF4500; /* Use a darker orange shade on hover */
+}
+
+/* ... (rest of the code remains the same) */
